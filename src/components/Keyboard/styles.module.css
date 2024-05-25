@@ -1,0 +1,23 @@
+.button {
+  padding: 1rem 2rem;
+  border: 1px solid white;
+  background: none;
+  color: white;
+  font-family: inherit;
+  font-size: 4rem;
+  cursor: pointer;
+
+  &:disabled {
+    color: black;
+    pointer-events: none;
+    opacity: 0.4;
+    background-color: white;
+  }
+}
+
+@media (hover: hover) {
+  .button:hover {
+    background-color: white;
+    color: black;
+  }
+}

@@ -1,0 +1,21 @@
+.control {
+  padding: 12px 10px;
+  background: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: inherit;
+  font-family: inherit;
+  font-size: 4rem;
+  cursor: pointer;
+  text-align: center;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: block;
+}
+
+@media (hover: hover) {
+  .control:hover {
+    background: white;
+    color: black;
+  }
+}

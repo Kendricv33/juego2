@@ -1,0 +1,29 @@
+:root {
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  background-image: url("/pizarron.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-color: #030303;
+  border: 25px ridge #7E6551;
+  height: 100dvh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
