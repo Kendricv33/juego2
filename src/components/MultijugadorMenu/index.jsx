@@ -49,7 +49,7 @@ export default function MultijugadorMenu() {
 
   const copyToClipboard = () => {
     navigator.clipboard
-      .writeText(`https://juego-del-ahorcado-three.vercel.app/multijugador/${invitationUrl}`)
+      .writeText(`https://juego2-nine.vercel.app/multijugador/${invitationUrl}`)
       .then(() => {
         alert('Enlace copiado al portapapeles!');
       })
